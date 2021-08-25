@@ -13,8 +13,10 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # zsh autosuggestions
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 
 # ZeroTier VPN
 curl -sS https://download.zerotier.com/dist/ZeroTier%20One.pkg > ~/Downloads/ZeroTierOne.pkg
