@@ -226,10 +226,10 @@ defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock static-only -bool true
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 # Remove the auto-hiding Dock delay
-defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-delay -float 5
 
 # Remove the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0
@@ -243,7 +243,7 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 72
 
 
 
