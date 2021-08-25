@@ -12,6 +12,7 @@ brew 'mas' # Mac App Store manager
 brew 'tree' # List directories in a tree structure
 
 # Development
+brew 'graphviz'
 brew 'node'
 brew 'python3'
 brew 'pyenv'
