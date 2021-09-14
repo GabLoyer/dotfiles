@@ -13,6 +13,7 @@ brew 'tree' # List directories in a tree structure
 
 # Development
 brew 'graphviz'
+brew 'kdiff3'
 brew 'node'
 brew 'python3'
 brew 'pyenv'

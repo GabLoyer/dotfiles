@@ -205,7 +205,6 @@ defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 
 
-
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
@@ -223,7 +222,7 @@ defaults write com.apple.dock showhidden -bool true
 defaults write com.apple.dock persistent-apps -array
 
 # Show only open applications in the Dock
-defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock static-only -bool false
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool false
