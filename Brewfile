@@ -21,6 +21,7 @@ brew 'pyenv-virtualenv'
 
 # Apps
 cask 'cf-keylayout' # Canadian-French Keyboard
+cask 'dbeaver-community'
 cask 'discord'
 cask 'docker'
 cask 'firefox'

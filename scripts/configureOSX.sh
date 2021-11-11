@@ -295,7 +295,7 @@ defaults write com.apple.appstore ShowDebugMenu -bool true
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
 
 # Check for software updates daily, not just once per week
-# defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Download newly available updates in background
 # defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
