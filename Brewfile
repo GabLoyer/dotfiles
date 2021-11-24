@@ -10,8 +10,10 @@ brew 'git'
 brew 'git-lfs'
 brew 'mas' # Mac App Store manager
 brew 'tree' # List directories in a tree structure
+brew 'wget'
 
 # Development
+brew 'bash'
 brew 'graphviz'
 brew 'kdiff3'
 brew 'node'
@@ -26,6 +28,7 @@ cask 'discord'
 cask 'docker'
 cask 'firefox'
 cask 'iterm2'
+# cask 'mactex'
 cask 'spotify'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
